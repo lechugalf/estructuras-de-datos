@@ -16,6 +16,14 @@ namespace Data
         private byte dateMonth;
         private byte dateYear;
 
+        public uint Input { set { this.input = value; } }
+        public byte Direction { get { return direction; } }
+        public byte Level { get { return level; } }
+        public byte Sensors { get { return sensors; } }
+        public byte DateDay { get { return dateDay; } }
+        public byte DateMonth { get { return dateMonth; } }
+        public byte DateYear { get { return dateYear; } }
+
         public void Procces()
         {
             direction = (byte)(input >> 1 & 7);
@@ -37,14 +45,5 @@ namespace Data
         {
             return (UInt16)(dateDay + (dateMonth << 5) + (dateYear << 9)); 
         }
-
-        public uint Input     { set { this.input = value; } }
-        public byte Direction { get { return direction; } }
-        public byte Level     { get { return level; } }
-        public byte Sensors   { get { return sensors; } }
-        public byte DateDay   { get { return dateDay; } }
-        public byte DateMonth { get { return dateMonth; } }
-        public byte DateYear  { get { return dateYear; } }
-
     }
 }
