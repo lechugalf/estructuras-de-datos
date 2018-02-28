@@ -3,7 +3,7 @@ Prácticas del curso Estructura de Datos 2018 Ingeniería de Software Facultad d
 
 ## Prácticas
 * Práctica1 - Bits y Bytes
-* Práctica2 - Series y Ciclos(?)
+* Práctica2 - Archivos de Texto y Archivos Binarios
 
 ### Autores
 * **Alfonso Lechuga**  - [lechugalf](https://github.com/lechugalf)
