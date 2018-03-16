@@ -1,0 +1,10 @@
+C:\Users\vic70\source\repos\PracticaClaseDado\PracticaClaseDado\bin\Debug\PracticaClaseDado.exe.config
+C:\Users\vic70\source\repos\PracticaClaseDado\PracticaClaseDado\bin\Debug\PracticaClaseDado.exe
+C:\Users\vic70\source\repos\PracticaClaseDado\PracticaClaseDado\bin\Debug\PracticaClaseDado.pdb
+C:\Users\vic70\source\repos\PracticaClaseDado\PracticaClaseDado\obj\Debug\PracticaClaseDado.csprojResolveAssemblyReference.cache
+C:\Users\vic70\source\repos\PracticaClaseDado\PracticaClaseDado\obj\Debug\PracticaClaseDado.Form1.resources
+C:\Users\vic70\source\repos\PracticaClaseDado\PracticaClaseDado\obj\Debug\PracticaClaseDado.Properties.Resources.resources
+C:\Users\vic70\source\repos\PracticaClaseDado\PracticaClaseDado\obj\Debug\PracticaClaseDado.csproj.GenerateResource.Cache
+C:\Users\vic70\source\repos\PracticaClaseDado\PracticaClaseDado\obj\Debug\PracticaClaseDado.csproj.CoreCompileInputs.cache
+C:\Users\vic70\source\repos\PracticaClaseDado\PracticaClaseDado\obj\Debug\PracticaClaseDado.exe
+C:\Users\vic70\source\repos\PracticaClaseDado\PracticaClaseDado\obj\Debug\PracticaClaseDado.pdb

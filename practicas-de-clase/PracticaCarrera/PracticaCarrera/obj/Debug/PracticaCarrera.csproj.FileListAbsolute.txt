@@ -1,0 +1,10 @@
+C:\Users\vic70\source\repos\PracticaCarrera\PracticaCarrera\obj\Debug\PracticaCarrera.csprojResolveAssemblyReference.cache
+C:\Users\vic70\source\repos\PracticaCarrera\PracticaCarrera\obj\Debug\PracticaCarrera.Carrera.resources
+C:\Users\vic70\source\repos\PracticaCarrera\PracticaCarrera\obj\Debug\PracticaCarrera.Properties.Resources.resources
+C:\Users\vic70\source\repos\PracticaCarrera\PracticaCarrera\obj\Debug\PracticaCarrera.csproj.GenerateResource.Cache
+C:\Users\vic70\source\repos\PracticaCarrera\PracticaCarrera\obj\Debug\PracticaCarrera.csproj.CoreCompileInputs.cache
+C:\Users\vic70\source\repos\PracticaCarrera\PracticaCarrera\bin\Debug\PracticaCarrera.exe.config
+C:\Users\vic70\source\repos\PracticaCarrera\PracticaCarrera\bin\Debug\PracticaCarrera.exe
+C:\Users\vic70\source\repos\PracticaCarrera\PracticaCarrera\bin\Debug\PracticaCarrera.pdb
+C:\Users\vic70\source\repos\PracticaCarrera\PracticaCarrera\obj\Debug\PracticaCarrera.exe
+C:\Users\vic70\source\repos\PracticaCarrera\PracticaCarrera\obj\Debug\PracticaCarrera.pdb

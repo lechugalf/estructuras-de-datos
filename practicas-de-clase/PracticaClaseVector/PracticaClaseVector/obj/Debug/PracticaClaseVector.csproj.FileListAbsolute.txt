@@ -1,0 +1,10 @@
+C:\Users\vic70\Documents\Estructuras\PracticaClaseVector\PracticaClaseVector\bin\Debug\PracticaClaseVector.exe.config
+C:\Users\vic70\Documents\Estructuras\PracticaClaseVector\PracticaClaseVector\bin\Debug\PracticaClaseVector.exe
+C:\Users\vic70\Documents\Estructuras\PracticaClaseVector\PracticaClaseVector\bin\Debug\PracticaClaseVector.pdb
+C:\Users\vic70\Documents\Estructuras\PracticaClaseVector\PracticaClaseVector\obj\Debug\PracticaClaseVector.csprojResolveAssemblyReference.cache
+C:\Users\vic70\Documents\Estructuras\PracticaClaseVector\PracticaClaseVector\obj\Debug\PracticaClaseVector.Properties.Resources.resources
+C:\Users\vic70\Documents\Estructuras\PracticaClaseVector\PracticaClaseVector\obj\Debug\PracticaClaseVector.csproj.GenerateResource.Cache
+C:\Users\vic70\Documents\Estructuras\PracticaClaseVector\PracticaClaseVector\obj\Debug\PracticaClaseVector.csproj.CoreCompileInputs.cache
+C:\Users\vic70\Documents\Estructuras\PracticaClaseVector\PracticaClaseVector\obj\Debug\PracticaClaseVector.exe
+C:\Users\vic70\Documents\Estructuras\PracticaClaseVector\PracticaClaseVector\obj\Debug\PracticaClaseVector.pdb
+C:\Users\vic70\Documents\Estructuras\PracticaClaseVector\PracticaClaseVector\obj\Debug\PracticaClaseVector.Form1.resources
