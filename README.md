@@ -6,9 +6,9 @@ Prácticas del curso Estructura de Datos 2018 Ingeniería de Software Facultad d
 * Práctica2 - Archivos de Texto y Archivos Binarios
 
 ## Prácticas de Clase
-* Dados
 * Vectores
-* Elevador
+* Carrera
+* Dados
 
 ### Autores
 * **Alfonso Lechuga**  - [lechugalf](https://github.com/lechugalf)
