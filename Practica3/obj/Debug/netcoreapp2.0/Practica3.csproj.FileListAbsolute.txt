@@ -1,0 +1,10 @@
+/home/alfonsolechu/Escritorio/estructuras/Practica3/bin/Debug/netcoreapp2.0/Practica3.deps.json
+/home/alfonsolechu/Escritorio/estructuras/Practica3/bin/Debug/netcoreapp2.0/Practica3.runtimeconfig.json
+/home/alfonsolechu/Escritorio/estructuras/Practica3/bin/Debug/netcoreapp2.0/Practica3.runtimeconfig.dev.json
+/home/alfonsolechu/Escritorio/estructuras/Practica3/bin/Debug/netcoreapp2.0/Practica3.dll
+/home/alfonsolechu/Escritorio/estructuras/Practica3/bin/Debug/netcoreapp2.0/Practica3.pdb
+/home/alfonsolechu/Escritorio/estructuras/Practica3/obj/Debug/netcoreapp2.0/Practica3.csproj.CoreCompileInputs.cache
+/home/alfonsolechu/Escritorio/estructuras/Practica3/obj/Debug/netcoreapp2.0/Practica3.AssemblyInfoInputs.cache
+/home/alfonsolechu/Escritorio/estructuras/Practica3/obj/Debug/netcoreapp2.0/Practica3.AssemblyInfo.cs
+/home/alfonsolechu/Escritorio/estructuras/Practica3/obj/Debug/netcoreapp2.0/Practica3.dll
+/home/alfonsolechu/Escritorio/estructuras/Practica3/obj/Debug/netcoreapp2.0/Practica3.pdb
