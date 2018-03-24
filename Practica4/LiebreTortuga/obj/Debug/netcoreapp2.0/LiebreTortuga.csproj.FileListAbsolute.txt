@@ -1,0 +1,10 @@
+/home/alfonsolechu/Escritorio/estructuras/LiebreTortuga/bin/Debug/netcoreapp2.0/LiebreTortuga.deps.json
+/home/alfonsolechu/Escritorio/estructuras/LiebreTortuga/bin/Debug/netcoreapp2.0/LiebreTortuga.runtimeconfig.json
+/home/alfonsolechu/Escritorio/estructuras/LiebreTortuga/bin/Debug/netcoreapp2.0/LiebreTortuga.runtimeconfig.dev.json
+/home/alfonsolechu/Escritorio/estructuras/LiebreTortuga/bin/Debug/netcoreapp2.0/LiebreTortuga.dll
+/home/alfonsolechu/Escritorio/estructuras/LiebreTortuga/bin/Debug/netcoreapp2.0/LiebreTortuga.pdb
+/home/alfonsolechu/Escritorio/estructuras/LiebreTortuga/obj/Debug/netcoreapp2.0/LiebreTortuga.csproj.CoreCompileInputs.cache
+/home/alfonsolechu/Escritorio/estructuras/LiebreTortuga/obj/Debug/netcoreapp2.0/LiebreTortuga.AssemblyInfoInputs.cache
+/home/alfonsolechu/Escritorio/estructuras/LiebreTortuga/obj/Debug/netcoreapp2.0/LiebreTortuga.AssemblyInfo.cs
+/home/alfonsolechu/Escritorio/estructuras/LiebreTortuga/obj/Debug/netcoreapp2.0/LiebreTortuga.dll
+/home/alfonsolechu/Escritorio/estructuras/LiebreTortuga/obj/Debug/netcoreapp2.0/LiebreTortuga.pdb
