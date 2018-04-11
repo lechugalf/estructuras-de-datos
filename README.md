@@ -1,3 +1,4 @@
+
 # estructuras-de-datos
 Prácticas del curso Estructura de Datos 2018 Ingeniería de Software Facultad de Telemática, Universidad de Colima. Programación en C# con Visual Studio y WindowsForms.
 
@@ -11,6 +12,7 @@ Prácticas del curso Estructura de Datos 2018 Ingeniería de Software Facultad d
 * Vectores
 * Carrera
 * Dados
+* Guerra
 
 ### Autores
 * **Alfonso Lechuga**  - [lechugalf](https://github.com/lechugalf)
