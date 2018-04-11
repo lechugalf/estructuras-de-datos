@@ -1,0 +1,10 @@
+C:\Users\vic70\Documents\Estructuras\Guerra\Guerra\bin\Debug\Guerra.exe.config
+C:\Users\vic70\Documents\Estructuras\Guerra\Guerra\bin\Debug\Guerra.exe
+C:\Users\vic70\Documents\Estructuras\Guerra\Guerra\bin\Debug\Guerra.pdb
+C:\Users\vic70\Documents\Estructuras\Guerra\Guerra\obj\Debug\Guerra.csprojResolveAssemblyReference.cache
+C:\Users\vic70\Documents\Estructuras\Guerra\Guerra\obj\Debug\Guerra.Form1.resources
+C:\Users\vic70\Documents\Estructuras\Guerra\Guerra\obj\Debug\Guerra.Properties.Resources.resources
+C:\Users\vic70\Documents\Estructuras\Guerra\Guerra\obj\Debug\Guerra.csproj.GenerateResource.Cache
+C:\Users\vic70\Documents\Estructuras\Guerra\Guerra\obj\Debug\Guerra.csproj.CoreCompileInputs.cache
+C:\Users\vic70\Documents\Estructuras\Guerra\Guerra\obj\Debug\Guerra.exe
+C:\Users\vic70\Documents\Estructuras\Guerra\Guerra\obj\Debug\Guerra.pdb
