@@ -7,6 +7,7 @@ Prácticas del curso Estructura de Datos 2018 Ingeniería de Software Facultad d
 * Práctica2 - Archivos de Texto y Archivos Binarios
 * Práctica3 - Coladera de Eratóstenes
 * Práctica4 - La Liebre y la Tortuga
+* Práctica5 - Agenda
 
 ## Prácticas de Clase
 * Vectores
