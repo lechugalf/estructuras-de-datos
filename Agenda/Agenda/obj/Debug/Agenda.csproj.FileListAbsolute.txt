@@ -1,0 +1,10 @@
+C:\Users\vic70\Desktop\Agenda\Agenda\obj\Debug\Agenda.Properties.Resources.resources
+C:\Users\vic70\Desktop\Agenda\Agenda\obj\Debug\Agenda.csproj.GenerateResource.Cache
+C:\Users\vic70\Desktop\Agenda\Agenda\obj\Debug\Agenda.csproj.CoreCompileInputs.cache
+C:\Users\vic70\Desktop\Agenda\Agenda\bin\Debug\Agenda.exe.config
+C:\Users\vic70\Desktop\Agenda\Agenda\bin\Debug\Agenda.exe
+C:\Users\vic70\Desktop\Agenda\Agenda\bin\Debug\Agenda.pdb
+C:\Users\vic70\Desktop\Agenda\Agenda\obj\Debug\Agenda.csprojResolveAssemblyReference.cache
+C:\Users\vic70\Desktop\Agenda\Agenda\obj\Debug\Agenda.Form1.resources
+C:\Users\vic70\Desktop\Agenda\Agenda\obj\Debug\Agenda.exe
+C:\Users\vic70\Desktop\Agenda\Agenda\obj\Debug\Agenda.pdb
