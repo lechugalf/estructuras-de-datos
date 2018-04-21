@@ -1,0 +1,10 @@
+C:\Users\vic70\Desktop\Agenda2\Agenda2\bin\Debug\Agenda2.exe.config
+C:\Users\vic70\Desktop\Agenda2\Agenda2\bin\Debug\Agenda2.exe
+C:\Users\vic70\Desktop\Agenda2\Agenda2\bin\Debug\Agenda2.pdb
+C:\Users\vic70\Desktop\Agenda2\Agenda2\obj\Debug\Agenda2.csprojResolveAssemblyReference.cache
+C:\Users\vic70\Desktop\Agenda2\Agenda2\obj\Debug\Agenda2.Form1.resources
+C:\Users\vic70\Desktop\Agenda2\Agenda2\obj\Debug\Agenda2.Properties.Resources.resources
+C:\Users\vic70\Desktop\Agenda2\Agenda2\obj\Debug\Agenda2.csproj.GenerateResource.Cache
+C:\Users\vic70\Desktop\Agenda2\Agenda2\obj\Debug\Agenda2.csproj.CoreCompileInputs.cache
+C:\Users\vic70\Desktop\Agenda2\Agenda2\obj\Debug\Agenda2.exe
+C:\Users\vic70\Desktop\Agenda2\Agenda2\obj\Debug\Agenda2.pdb
