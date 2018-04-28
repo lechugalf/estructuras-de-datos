@@ -9,6 +9,7 @@ Prácticas del curso Estructura de Datos 2018 Ingeniería de Software Facultad d
 * Práctica4 - La Liebre y la Tortuga
 * Práctica5 - Agenda
 * Práctica6 - Agenda2 (ordenada)
+* Práctica7 - Graficos por Tortuga
 
 ## Prácticas de Clase
 * Vectores
