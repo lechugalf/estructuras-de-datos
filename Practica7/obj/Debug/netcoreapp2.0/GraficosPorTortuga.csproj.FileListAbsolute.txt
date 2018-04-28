@@ -1,0 +1,10 @@
+/home/alfonsolechu/Escritorio/GraficosPorTortuga/obj/Debug/netcoreapp2.0/GraficosPorTortuga.csproj.CoreCompileInputs.cache
+/home/alfonsolechu/Escritorio/GraficosPorTortuga/obj/Debug/netcoreapp2.0/GraficosPorTortuga.AssemblyInfoInputs.cache
+/home/alfonsolechu/Escritorio/GraficosPorTortuga/obj/Debug/netcoreapp2.0/GraficosPorTortuga.AssemblyInfo.cs
+/home/alfonsolechu/Escritorio/GraficosPorTortuga/bin/Debug/netcoreapp2.0/GraficosPorTortuga.deps.json
+/home/alfonsolechu/Escritorio/GraficosPorTortuga/bin/Debug/netcoreapp2.0/GraficosPorTortuga.runtimeconfig.json
+/home/alfonsolechu/Escritorio/GraficosPorTortuga/bin/Debug/netcoreapp2.0/GraficosPorTortuga.runtimeconfig.dev.json
+/home/alfonsolechu/Escritorio/GraficosPorTortuga/bin/Debug/netcoreapp2.0/GraficosPorTortuga.dll
+/home/alfonsolechu/Escritorio/GraficosPorTortuga/bin/Debug/netcoreapp2.0/GraficosPorTortuga.pdb
+/home/alfonsolechu/Escritorio/GraficosPorTortuga/obj/Debug/netcoreapp2.0/GraficosPorTortuga.dll
+/home/alfonsolechu/Escritorio/GraficosPorTortuga/obj/Debug/netcoreapp2.0/GraficosPorTortuga.pdb
