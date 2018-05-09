@@ -664,23 +664,23 @@
     ]
   },
   "packageFolders": {
-    "/home/alfonsolechu/.nuget/packages/": {},
+    "/home/lechugalf/.nuget/packages/": {},
     "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/alfonsolechu/Escritorio/estructuras-de-datos/practicas-de-clase/AgendaListasEnlazadas/AgendaListasEnlazadas.csproj",
+      "projectUniqueName": "/home/lechugalf/Escritorio/estructuras-de-datos/practicas-de-clase/AgendaListasEnlazadas/AgendaListasEnlazadas.csproj",
       "projectName": "AgendaListasEnlazadas",
-      "projectPath": "/home/alfonsolechu/Escritorio/estructuras-de-datos/practicas-de-clase/AgendaListasEnlazadas/AgendaListasEnlazadas.csproj",
-      "packagesPath": "/home/alfonsolechu/.nuget/packages/",
-      "outputPath": "/home/alfonsolechu/Escritorio/estructuras-de-datos/practicas-de-clase/AgendaListasEnlazadas/obj/",
+      "projectPath": "/home/lechugalf/Escritorio/estructuras-de-datos/practicas-de-clase/AgendaListasEnlazadas/AgendaListasEnlazadas.csproj",
+      "packagesPath": "/home/lechugalf/.nuget/packages/",
+      "outputPath": "/home/lechugalf/Escritorio/estructuras-de-datos/practicas-de-clase/AgendaListasEnlazadas/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/alfonsolechu/.nuget/NuGet/NuGet.Config"
+        "/home/lechugalf/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"

@@ -6,12 +6,12 @@ namespace AgendaListasEnlazadas
     {
         Contacto contacto;
 
-        public Agenda(int N)
+        public Agenda()
         {
-            contacto = new Contacto();
+            
         }
 
-        public Agregar(Contacto nuevo)
+        public void Agregar(Contacto nuevo)
         {
             if(contacto == null)
                 contacto = nuevo;
@@ -27,49 +27,68 @@ namespace AgendaListasEnlazadas
             }
         }
 
-        public Insertar(int pos, Contacto nuevo)
+        public void Insertar(int pos, Contacto nuevo)
         {
             int cont = 0;
-            Contacto pos = contacto;
+            Contacto cpos = contacto;
 
-            for(cont = 0; cont <= pos; cont++)
-                pos = pos.Siguiente;
+            for(cont = 0; cont < pos-1; cont++)
+                cpos = cpos.Siguiente;
+
+            if(cpos != null)
+            {
+                nuevo.Siguiente = cpos.Siguiente;
+                cpos.Siguiente = nuevo;
+            }
+        }
+
+        public int Eliminar(string telefono)
+        {
+            bool encontrado = false;
+            Contacto pos = contacto;
 
             if(pos != null)
             {
-                nuevo.Siguiente = pos.Siguiente;
-                pos.Siguiente = nuevo;
-            }
-        }
+                if(pos.Telefono == telefono)
+                {
+                    contacto = pos.Siguiente;
+                    return 0;
+                }
 
-        public Eliminar(string telefono)
-        {
-            Contacto pos = contacto;
-            bool encontrado = false;
-            while(pos.Siguiente != null)
-            {
-                if(pos.Siguiente.Telefono == telefono)
-                    encontrado = true;
-                pos = pos.Siguiente;
+                while(pos.Siguiente != null && !encontrado)
+                {
+                    if(pos.Siguiente.Telefono == telefono)
+                        encontrado = true;
+                    else
+                        pos = pos.Siguiente;
+                }
             }
+
             if(encontrado)
+            {
                 pos.Siguiente = pos.Siguiente.Siguiente;
+                return 0;
+            }
+            return 1;
         }
 
-        public Listar()
+        public string Listar()
         {
             string lista = "";
             if(contacto == null)
-                return lista;
+                return "Agenda vacia!";
             else
             {
                 Contacto pos = contacto;
                 int cont = 0;
-                while(pos.Siguiente != null)
+
+                while(pos != null)
                 {
                     lista += cont.ToString() + pos.ToString() + '\n';
                     cont++;
+                    pos = pos.Siguiente;
                 }
+                
             }
             return lista;
         }

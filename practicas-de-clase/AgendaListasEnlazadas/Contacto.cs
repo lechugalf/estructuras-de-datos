@@ -10,12 +10,12 @@ namespace AgendaListasEnlazadas
         private string nombre;
         private string apellido_p;
         private string apellido_m;
-        private byte edad;
+        private string edad;
         private string email;
         private string telefono;
 
         public Contacto(string nombre, string apellido_p, string apellido_m,
-            byte edad, string email, string telefono)
+            string edad, string email, string telefono)
         {
             this.nombre = nombre;
             this.apellido_p = apellido_p;
@@ -51,7 +51,7 @@ namespace AgendaListasEnlazadas
             set { apellido_m = value; }
         }
 
-        public byte Edad
+        public string Edad
         {
             get { return edad; }
             set { edad = value; }

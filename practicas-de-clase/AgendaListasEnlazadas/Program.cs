@@ -6,7 +6,9 @@ namespace AgendaListasEnlazadas
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Agenda agenda = new Agenda();
+            AgendaCLI cli = new AgendaCLI(agenda);
+            cli.Iniciar();
         }
     }
 }
