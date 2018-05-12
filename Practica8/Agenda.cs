@@ -125,17 +125,24 @@ namespace AgendaListasEnlazadas
         }
         public string ListarInverso()
         {
-            if(contacto == null)
-                return "Agenda vacia!";
+            Contacto pos = contacto;
+            string result = "";
+
+            if(pos == null)
+                result = "Agenda vacia!";
             else
             {
-                while()
+                while(pos != null){
+                    result = pos.ToString() + '\n' + result;
+                    pos = pos.Siguiente;
+                }
             }
-            return "";
+            return result;
         }
+
         public void Invertir()
         {
-
+            
         }
     }
 }

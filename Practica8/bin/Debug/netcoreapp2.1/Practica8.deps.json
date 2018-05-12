@@ -1,20 +1,20 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v2.0",
+    "name": ".NETCoreApp,Version=v2.1",
     "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v2.0": {
-      "AgendaListasEnlazadas/1.0.0": {
+    ".NETCoreApp,Version=v2.1": {
+      "Practica8/1.0.0": {
         "runtime": {
-          "AgendaListasEnlazadas.dll": {}
+          "Practica8.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "AgendaListasEnlazadas/1.0.0": {
+    "Practica8/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

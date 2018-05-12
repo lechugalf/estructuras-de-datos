@@ -38,6 +38,10 @@ namespace AgendaListasEnlazadas
                     salida = agenda.Listar();
                     break;
 
+                case "listar inv":
+                    salida = agenda.ListarInverso();
+                    break;
+
                 case "salir":
                     salida = "bye";
                     break;
