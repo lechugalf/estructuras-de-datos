@@ -140,9 +140,21 @@ namespace AgendaListasEnlazadas
             return result;
         }
 
-        public void Invertir()
+        public void InvertirLista(){
+            contacto = Invertir(contacto);
+        }
+        private Contacto Invertir(Contacto lista)
         {
-            
+            Contacto ret;
+            if(lista.Siguiente == null || lista == null)
+                return lista;
+            else
+            {
+                ret = Invertir(lista.Siguiente);
+                lista.Siguiente.Siguiente = lista;
+                lista.Siguiente = null;   
+            }
+            return ret;
         }
     }
 }

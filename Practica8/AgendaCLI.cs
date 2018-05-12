@@ -92,6 +92,11 @@ namespace AgendaListasEnlazadas
                         salida = "Ningun contacto encontrado!";
                     break;
 
+                case "invertir":
+                    agenda.InvertirLista();
+                    salida = "lista invertida..";
+                    break;
+
                 default:
                     salida = "Comando desconocido!";
                     break;
