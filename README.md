@@ -10,6 +10,8 @@ Prácticas del curso Estructura de Datos 2018 Ingeniería de Software Facultad d
 * Práctica5 - Agenda
 * Práctica6 - Agenda2 (ordenada)
 * Práctica7 - Graficos por Tortuga
+* Práctica8 - Agenda (Listas Enlazadas Simples)
+* Práctica9 - Agenda (Listas Enlazadas Dobles)
 
 ## Prácticas de Clase
 * Vectores
