@@ -14,11 +14,12 @@ namespace Practica9
         public void Iniciar()
         {
             string cmd, salida;
-            Console.WriteLine("Agenda Linea de Comandos");
+            Console.WriteLine("\nAgenda Linea de Comandos");
+            Console.WriteLine("comandos: 'agregar','buscar','eliminar','listar', 'listar inv', 'eliminar ult', 'eliminar ini', 'salir', 'ayuda'");
 
             do
             {
-                Console.WriteLine(">>>");
+                Console.WriteLine("--->");
                 cmd = Console.ReadLine();
                 salida = EjecutarComando(cmd);
                 Console.WriteLine(salida);
@@ -57,20 +58,8 @@ namespace Practica9
                     salida = "cancelado";
                     break;
 
-                case "insertar":
-                    contacto = ContactoFormulario();
-                    if(contacto != null)
-                    {
-                        Console.WriteLine("insertar en posicion:");
-                        catcher = int.Parse(Console.ReadLine());
-                        agenda.Insertar(catcher, contacto);
-                        salida = "hecho..";
-                        break;
-                    }
-                    salida = "cancelado";
-                    break;
-
                 case "eliminar":
+                    Console.WriteLine("Nombre a eliminar: ");
                     catcher = agenda.Eliminar(Console.ReadLine());
                     salida = (catcher == 0 ? "Contacto eliminado":"Contacto no encontrado");
                     break;
@@ -84,12 +73,16 @@ namespace Practica9
                     break;
 
                 case "buscar":
-                    Console.WriteLine("Telefono a buscar: ");
+                    Console.WriteLine("Nombre a buscar: ");
                     contacto = agenda.Buscar(Console.ReadLine());
                     if(contacto != null)
-                        MostrarContacto(contacto.Siguiente);
+                        MostrarContacto(contacto);
                     else
                         salida = "Ningun contacto encontrado!";
+                    break;
+
+                case "ayuda":
+                    salida = "comandos: 'agregar','buscar','eliminar','listar', 'listar inv', 'eliminar ult', 'eliminar ini', 'salir', 'ayuda'";
                     break;
 
                 default:

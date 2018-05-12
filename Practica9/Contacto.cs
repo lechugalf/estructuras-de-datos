@@ -34,7 +34,7 @@ namespace Practica9
             set { siguiente = value; }
         }
 
-        public Contacto anterior
+        public Contacto Anterior
         {
             get { return anterior; }
             set { anterior = value; }

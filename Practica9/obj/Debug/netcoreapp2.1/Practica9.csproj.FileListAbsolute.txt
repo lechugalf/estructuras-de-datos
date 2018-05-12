@@ -1,0 +1,11 @@
+/home/lechugalf/Escritorio/estructuras-de-datos/Practica9/obj/Debug/netcoreapp2.1/Practica9.csprojAssemblyReference.cache
+/home/lechugalf/Escritorio/estructuras-de-datos/Practica9/obj/Debug/netcoreapp2.1/Practica9.csproj.CoreCompileInputs.cache
+/home/lechugalf/Escritorio/estructuras-de-datos/Practica9/obj/Debug/netcoreapp2.1/Practica9.AssemblyInfoInputs.cache
+/home/lechugalf/Escritorio/estructuras-de-datos/Practica9/obj/Debug/netcoreapp2.1/Practica9.AssemblyInfo.cs
+/home/lechugalf/Escritorio/estructuras-de-datos/Practica9/bin/Debug/netcoreapp2.1/Practica9.deps.json
+/home/lechugalf/Escritorio/estructuras-de-datos/Practica9/bin/Debug/netcoreapp2.1/Practica9.runtimeconfig.json
+/home/lechugalf/Escritorio/estructuras-de-datos/Practica9/bin/Debug/netcoreapp2.1/Practica9.runtimeconfig.dev.json
+/home/lechugalf/Escritorio/estructuras-de-datos/Practica9/bin/Debug/netcoreapp2.1/Practica9.dll
+/home/lechugalf/Escritorio/estructuras-de-datos/Practica9/bin/Debug/netcoreapp2.1/Practica9.pdb
+/home/lechugalf/Escritorio/estructuras-de-datos/Practica9/obj/Debug/netcoreapp2.1/Practica9.dll
+/home/lechugalf/Escritorio/estructuras-de-datos/Practica9/obj/Debug/netcoreapp2.1/Practica9.pdb

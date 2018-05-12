@@ -1,4 +1,4 @@
-gitusing System;
+using System;
 
 namespace Practica9
 {
@@ -10,68 +10,89 @@ namespace Practica9
         {
             if(contacto == null)
                 contacto = nuevo;
-
             else
             {
                 Contacto pos = contacto;
-
-                while(pos.Siguiente != null)
-                    pos = pos.Siguiente;
-
-                pos.Siguiente = nuevo;
-            }
-        }
-
-        public void Insertar(int pos, Contacto nuevo)
-        {
-            if(pos == 0)
-            {
-                AgregarInicio(nuevo);
-            }
-            else
-            {
-                int cont = 0;
-                Contacto cpos = contacto;
-
-                for(cont = 0; cont < pos-1; cont++)
-                    cpos = cpos.Siguiente;
-
-                if(cpos != null)
+                bool agregado = false;
+                while(!agregado)
                 {
-                    nuevo.Siguiente = cpos.Siguiente;
-                    cpos.Siguiente = nuevo;
+                    if(String.Compare(nuevo.Nombre, pos.Nombre, true) <= 0)
+                    {
+                        if(pos.Anterior == null)
+                        {
+                            nuevo.Siguiente = pos;
+                            pos.Anterior = nuevo;
+                            contacto = nuevo;
+                            agregado = true;
+
+                        }
+                        else
+                        {
+                            nuevo.Anterior = pos.Anterior;
+                            nuevo.Siguiente = pos;
+                            nuevo.Anterior.Siguiente = nuevo;
+                            pos.Anterior = nuevo;
+                            agregado = true;
+                        }
+                    }
+                    else if(pos.Siguiente == null)
+                    {
+                        pos.Siguiente = nuevo;
+                        nuevo.Anterior = pos;
+                        agregado = true;
+                    }
+                    pos = pos.Siguiente;
                 }
             }
-            
         }
 
-        public Contacto Buscar(string busq)
+        public Contacto Buscar(string nombre)
         {
 
             Contacto pos = contacto;
+            bool fuera = false;
 
-            if(pos != null)
+            while(pos != null && !fuera)
             {
-                if(pos.Telefono == busq)
+                if(String.Compare(nombre, pos.Nombre, true) < 0)
+                    fuera = true;
+
+                else if(pos.Nombre == nombre)
                     return pos;
 
-                while(pos.Siguiente != null)
-                {
-                    if(pos.Siguiente.Telefono == busq)
-                        return pos;
-                    else
-                        pos = pos.Siguiente;
-                }
+                else
+                    pos = pos.Siguiente;
             }
+
             return null;
         }
-        public int Eliminar(string telefono)
+        public int Eliminar(string nombre)
         {
-            Contacto pos = Buscar(telefono);
-            if(pos.Siguiente != null)
+            Contacto pos = Buscar(nombre);
+            if(pos != null)
             {
-                pos.Siguiente = pos.Siguiente.Siguiente;
-                return 0;
+                if(pos.Anterior == null && pos.Siguiente == null)
+                {
+                    contacto = null;
+                    return 0;
+                }
+                else if(pos.Anterior == null && pos.Siguiente != null)
+                {
+                    pos.Siguiente.Anterior = null;
+                    contacto = pos.Siguiente;
+                    return 0;
+                }
+                else if(pos.Anterior != null && pos.Siguiente == null)
+                {
+                    pos.Anterior.Siguiente = null;
+                    return 0;
+                }
+                else 
+                {
+                    pos.Anterior.Siguiente = pos.Siguiente;
+                    pos.Siguiente.Anterior = pos.Anterior;
+                    return 0;
+                }
             }
             return 1;
         }
@@ -97,15 +118,11 @@ namespace Practica9
             return lista;
         }
 
-        public void AgregarInicio(Contacto nuevo)
-        {
-            nuevo.Siguiente = contacto;
-            contacto = nuevo;
-        }
         public void EliminarInicio()
         {
             contacto = contacto.Siguiente;
         }
+
         public void EliminarUltimo()
         {
             Contacto pos = contacto;
@@ -133,11 +150,6 @@ namespace Practica9
                 }
             }
             return result;
-        }
-
-        public void Invertir()
-        {
-            
         }
     }
 }
