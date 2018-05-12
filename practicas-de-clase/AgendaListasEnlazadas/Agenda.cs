@@ -29,42 +29,51 @@ namespace AgendaListasEnlazadas
 
         public void Insertar(int pos, Contacto nuevo)
         {
-            int cont = 0;
-            Contacto cpos = contacto;
-
-            for(cont = 0; cont < pos-1; cont++)
-                cpos = cpos.Siguiente;
-
-            if(cpos != null)
+            if(pos == 0)
             {
-                nuevo.Siguiente = cpos.Siguiente;
-                cpos.Siguiente = nuevo;
+                AgregarInicio(nuevo);
             }
+            else
+            {
+                int cont = 0;
+                Contacto cpos = contacto;
+
+                for(cont = 0; cont < pos-1; cont++)
+                    cpos = cpos.Siguiente;
+
+                if(cpos != null)
+                {
+                    nuevo.Siguiente = cpos.Siguiente;
+                    cpos.Siguiente = nuevo;
+                }
+            }
+            
         }
 
-        public int Eliminar(string telefono)
+        public Contacto Buscar(string busq)
         {
-            bool encontrado = false;
+
             Contacto pos = contacto;
 
             if(pos != null)
             {
-                if(pos.Telefono == telefono)
-                {
-                    contacto = pos.Siguiente;
-                    return 0;
-                }
+                if(pos.Telefono == busq)
+                    return pos;
 
-                while(pos.Siguiente != null && !encontrado)
+                while(pos.Siguiente != null)
                 {
-                    if(pos.Siguiente.Telefono == telefono)
-                        encontrado = true;
+                    if(pos.Siguiente.Telefono == busq)
+                        return pos;
                     else
                         pos = pos.Siguiente;
                 }
             }
-
-            if(encontrado)
+            return null;
+        }
+        public int Eliminar(string telefono)
+        {
+            Contacto pos = Buscar(telefono);
+            if(pos.Siguiente != null)
             {
                 pos.Siguiente = pos.Siguiente.Siguiente;
                 return 0;
@@ -93,6 +102,40 @@ namespace AgendaListasEnlazadas
             return lista;
         }
 
+        public void AgregarInicio(Contacto nuevo)
+        {
+            nuevo.Siguiente = contacto;
+            contacto = nuevo;
+        }
+        public void EliminarInicio()
+        {
+            contacto = contacto.Siguiente;
+        }
+        public void EliminarUltimo()
+        {
+            Contacto pos = contacto;
 
+            if(pos != null)
+            {
+                while(pos.Siguiente.Siguiente != null)
+                        pos = pos.Siguiente;
+
+                pos.Siguiente = null;
+            }
+        }
+        public string ListarInverso()
+        {
+            if(contacto == null)
+                return "Agenda vacia!";
+            else
+            {
+                while()
+            }
+            return "";
+        }
+        public void Invertir()
+        {
+
+        }
     }
 }

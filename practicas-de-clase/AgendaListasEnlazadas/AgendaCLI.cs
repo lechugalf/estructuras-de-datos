@@ -58,7 +58,7 @@ namespace AgendaListasEnlazadas
                     if(contacto != null)
                     {
                         Console.WriteLine("insertar en posicion:");
-                        catcher = Console.Read();
+                        catcher = int.Parse(Console.ReadLine());
                         agenda.Insertar(catcher, contacto);
                         salida = "hecho..";
                         break;
@@ -69,6 +69,23 @@ namespace AgendaListasEnlazadas
                 case "eliminar":
                     catcher = agenda.Eliminar(Console.ReadLine());
                     salida = (catcher == 0 ? "Contacto eliminado":"Contacto no encontrado");
+                    break;
+
+                case "eliminar ini":
+                    agenda.EliminarInicio();
+                    break;
+
+                case "eliminar ult":
+                    agenda.EliminarUltimo();
+                    break;
+
+                case "buscar":
+                    Console.WriteLine("Telefono a buscar: ");
+                    contacto = agenda.Buscar(Console.ReadLine());
+                    if(contacto != null)
+                        MostrarContacto(contacto.Siguiente);
+                    else
+                        salida = "Ningun contacto encontrado!";
                     break;
 
                 default:
@@ -102,6 +119,16 @@ namespace AgendaListasEnlazadas
                 return contacto;
 
             return null;
+        }
+
+        private void MostrarContacto(Contacto contacto)
+        {
+            Console.WriteLine("Nombre:\t" + contacto.Nombre);
+            Console.WriteLine("Apellido Pat:\t" + contacto.Apellido_p);
+            Console.WriteLine("Apellido Mat:\t" + contacto.Apellido_m);
+            Console.WriteLine("Edad:\t" + contacto.Edad);
+            Console.WriteLine("Email:\t" + contacto.Email);
+            Console.WriteLine("Telefono:\t" + contacto.Telefono);
         }
     }
 }
