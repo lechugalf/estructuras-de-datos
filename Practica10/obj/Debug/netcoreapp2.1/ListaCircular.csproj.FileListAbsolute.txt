@@ -1,0 +1,11 @@
+/home/lechugalf/Escritorio/estructuras-de-datos/practicas-de-clase/ListaCircular/bin/Debug/netcoreapp2.1/ListaCircular.deps.json
+/home/lechugalf/Escritorio/estructuras-de-datos/practicas-de-clase/ListaCircular/bin/Debug/netcoreapp2.1/ListaCircular.runtimeconfig.json
+/home/lechugalf/Escritorio/estructuras-de-datos/practicas-de-clase/ListaCircular/bin/Debug/netcoreapp2.1/ListaCircular.runtimeconfig.dev.json
+/home/lechugalf/Escritorio/estructuras-de-datos/practicas-de-clase/ListaCircular/bin/Debug/netcoreapp2.1/ListaCircular.dll
+/home/lechugalf/Escritorio/estructuras-de-datos/practicas-de-clase/ListaCircular/bin/Debug/netcoreapp2.1/ListaCircular.pdb
+/home/lechugalf/Escritorio/estructuras-de-datos/practicas-de-clase/ListaCircular/obj/Debug/netcoreapp2.1/ListaCircular.csprojAssemblyReference.cache
+/home/lechugalf/Escritorio/estructuras-de-datos/practicas-de-clase/ListaCircular/obj/Debug/netcoreapp2.1/ListaCircular.csproj.CoreCompileInputs.cache
+/home/lechugalf/Escritorio/estructuras-de-datos/practicas-de-clase/ListaCircular/obj/Debug/netcoreapp2.1/ListaCircular.AssemblyInfoInputs.cache
+/home/lechugalf/Escritorio/estructuras-de-datos/practicas-de-clase/ListaCircular/obj/Debug/netcoreapp2.1/ListaCircular.AssemblyInfo.cs
+/home/lechugalf/Escritorio/estructuras-de-datos/practicas-de-clase/ListaCircular/obj/Debug/netcoreapp2.1/ListaCircular.dll
+/home/lechugalf/Escritorio/estructuras-de-datos/practicas-de-clase/ListaCircular/obj/Debug/netcoreapp2.1/ListaCircular.pdb
