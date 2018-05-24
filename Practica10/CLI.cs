@@ -15,7 +15,7 @@ namespace ListaCircular
         {
             string cmd, salida;
 
-            Console.WriteLine(":::::::: CONTROL DEL SISTEMA DE AUTOBUSES ::::::::");
+            Console.WriteLine("::::::::::: CONTROL DEL SISTEMA DE AUTOBUSES :::::::::::");
             Console.WriteLine(EjecutarComando("h"));
 
             do
@@ -31,11 +31,13 @@ namespace ListaCircular
         private string EjecutarComando(string cmd)
         {
             string salida = "";
+            int opciones = 0;
             Estacion estacion;
 
             switch (cmd)
             {
                 case "a" : 
+                    Console.WriteLine("Agregar Estación");
                     estacion = FormularioEstacion();
                     if(estacion != null){
                         controlador.AgregarFinal(estacion);
@@ -52,16 +54,42 @@ namespace ListaCircular
                     salida = (estacion!=null) ? estacion.ToString() : "no encontrado..";
                     break;
 
-                case "re":
+                case "ru":
                     salida = controlador.Ruta(Console.ReadLine(), int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));
                     break;
+
+                case "rm":
+                    controlador.EliminarEstacion(Console.ReadLine());
+                    break;
+
+                case "rmp":
+                    controlador.EliminarPrimeraEstacion();
+                    break;
+
+                case "rmu":
+                    controlador.EliminarUltimaEstacion();
+                    break;
+
+                case "ins":
+                    Console.WriteLine("Insertar Estación");
+                    estacion = FormularioEstacion();
+                    if(estacion != null){
+                        Console.WriteLine("Insertar en posicion: ");
+                        controlador.InsertarEstacion(estacion, int.Parse(Console.ReadLine()));
+                        salida = "Hecho..";
+                    }
+                    break;
+
                     
                 case "h" : 
-                    salida = "##################################################\n"+
-                    "# Comandos:                                      #\n" +
-                    "# Agregar Estación  : 'a'   Quitar Estación   : 'rm'    #\n" +
-                    "# Listar Estaciones : 'r'   Listar Estaciones : 'ls'    #\n" +
-                    "##################################################\n";
+                    salida = "########################################################\n"+
+                    "# Comandos                                             #\n" +
+                    "# Agregar Estación  : 'a'   Quitar Estación   : 'rm'   #\n" +
+                    "# Listar Estaciones : 'ls'  Quitar Ultima E.  : 'rmu'  #\n" +
+                    "# Buscar Estaciones : 'bu'  Quitar Primera E. : 'rmp'  #\n" +
+                    "# Reporte Ruta      : 'ru'  Insertar Estación : 'ins'  #\n" +
+                    "# ayuda             : 'h'   Salir             : 'q'    #\n" +
+                    "########################################################\n";
                     break;
 
                 case "q" :
@@ -76,7 +104,6 @@ namespace ListaCircular
         private Estacion FormularioEstacion()
         {
             string confirmar = "";
-            Console.WriteLine("Agregar Estación");
             Estacion nuevaEstacion = new Estacion();
 
             Console.WriteLine("Nombre de la Estacion: ");

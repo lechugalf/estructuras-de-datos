@@ -682,11 +682,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/lechugalf/Escritorio/estructuras-de-datos/practicas-de-clase/ListaCircular/ListaCircular.csproj",
+      "projectUniqueName": "/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica10/ListaCircular.csproj",
       "projectName": "ListaCircular",
-      "projectPath": "/home/lechugalf/Escritorio/estructuras-de-datos/practicas-de-clase/ListaCircular/ListaCircular.csproj",
+      "projectPath": "/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica10/ListaCircular.csproj",
       "packagesPath": "/home/lechugalf/.nuget/packages/",
-      "outputPath": "/home/lechugalf/Escritorio/estructuras-de-datos/practicas-de-clase/ListaCircular/obj/",
+      "outputPath": "/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica10/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
