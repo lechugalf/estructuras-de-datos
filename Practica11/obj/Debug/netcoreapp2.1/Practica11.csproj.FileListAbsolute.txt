@@ -1,0 +1,4 @@
+/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica11/obj/Debug/netcoreapp2.1/Practica11.csprojAssemblyReference.cache
+/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica11/obj/Debug/netcoreapp2.1/Practica11.csproj.CoreCompileInputs.cache
+/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica11/obj/Debug/netcoreapp2.1/Practica11.AssemblyInfoInputs.cache
+/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica11/obj/Debug/netcoreapp2.1/Practica11.AssemblyInfo.cs
