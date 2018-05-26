@@ -142,12 +142,17 @@ namespace ListaCircular
         {
             if(estacionBase != null)
             {
+                Estacion pos = estacionBase;
                 if(posicion == 0){
-                    //terminar esto :v
+                    
+                    //continue
+                    while(pos.Siguiente != estacionBase){
+                        pos = pos.Siguiente;
+                    
+
                 }
                 else
                 {
-                    Estacion pos = estacionBase;
                     for(int p = 0; p < posicion-1; p++)
                         pos = pos.Siguiente;
 
