@@ -6,7 +6,9 @@ namespace Practica11
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Processor myProcessor = new Processor();
+            myProcessor.ProcessTaskThread(300, 0.35);
+            Console.WriteLine(myProcessor.Log);
         }
     }
 }

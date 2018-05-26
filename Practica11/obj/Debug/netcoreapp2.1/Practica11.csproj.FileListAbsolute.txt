@@ -2,3 +2,10 @@
 /home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica11/obj/Debug/netcoreapp2.1/Practica11.csproj.CoreCompileInputs.cache
 /home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica11/obj/Debug/netcoreapp2.1/Practica11.AssemblyInfoInputs.cache
 /home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica11/obj/Debug/netcoreapp2.1/Practica11.AssemblyInfo.cs
+/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica11/bin/Debug/netcoreapp2.1/Practica11.deps.json
+/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica11/bin/Debug/netcoreapp2.1/Practica11.runtimeconfig.json
+/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica11/bin/Debug/netcoreapp2.1/Practica11.runtimeconfig.dev.json
+/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica11/bin/Debug/netcoreapp2.1/Practica11.dll
+/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica11/bin/Debug/netcoreapp2.1/Practica11.pdb
+/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica11/obj/Debug/netcoreapp2.1/Practica11.dll
+/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica11/obj/Debug/netcoreapp2.1/Practica11.pdb

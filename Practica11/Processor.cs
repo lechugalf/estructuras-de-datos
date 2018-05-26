@@ -4,27 +4,63 @@ namespace Practica11
 {
     class Processor
     {
-        Process taskQueue;
-        Process front;
-        Random rand = new Random();
+        private Process taskQueue;
+        private Random rand = new Random();
+        private string log;
 
-        public string ProccesTaskThread(int cycles, float inputP, int cycleTaskP)
+        public string Log { 
+            get { return log; }
+        }
+
+        public void ProcessTaskThread(int cycles, double inputP)
         {
-            int PID = 1;
+            int PID = 0;
+            int arrivedTasks = 0;
             int emptyCycles = 0;
             int attendedTasks = 0;
             int unresolved = 0;
+            int cyclesToProcess = 0;
+            int missingCycles = 0;
+            int rnd;
 
+            string report = "Procces Task Thread\n";
 
             for(int cycle = 0; cycle < cycles; cycle++)
             {
+                report += ListTaskQueue() + '\n';
+
+                if(taskQueue != null)
+                {
+                    if(taskQueue.Cycles == 0)
+                    {
+                        attendedTasks++;
+                        Dequeue();
+                    }
+                    else
+                        taskQueue.Cycles--;
+                }
+                else
+                    emptyCycles++;
+
                 if(rand.NextDouble() < inputP)
                 {
-                    
+                    rnd = rand.Next(4, 15);
+                    cyclesToProcess += rnd;
+                    Enqueue( new Process(++PID, rnd));
+                    arrivedTasks++;
                 }
             }
 
-            return "";
+            unresolved = PID - attendedTasks;
+            missingCycles = cyclesToProcess - cycles-emptyCycles;
+
+            report += "attendedTasks: " + attendedTasks + '\n' + 
+                      "emptyCycles: " + emptyCycles + '\n' + 
+                      "unresolved: " + unresolved + '\n'+
+                      "missingCycles: " + missingCycles + '\n' +
+                      "arrivedTasks: " + arrivedTasks;
+            //return report;
+            this.log = report;
         }
 
         private void Enqueue(Process newProcess)
@@ -46,6 +82,26 @@ namespace Practica11
         {
             if(taskQueue != null)
                 taskQueue = taskQueue.Next;
+        }
+
+        private string ListTaskQueue()
+        {
+            string str = "";
+
+            if(taskQueue != null)
+            {
+                Process pos = taskQueue;
+                while(pos != null)
+                {
+                    str += "[" + pos.ToString() + "]";
+                    pos = pos.Next;
+                }
+            }
+            else
+            {
+                str = "nothing to process..";
+            }
+            return str;
         }
     }
 }

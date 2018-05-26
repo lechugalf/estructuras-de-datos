@@ -16,13 +16,15 @@ namespace Practica11
 
         public override string ToString()
         {
-            return string.Format("PID: {0, -2} Cycles: {1, -2}", PID, Cycles);
+            //return string.Format("{0}", PID);
+            //return string.Format("{0},{1}", PID, Cycles);
+            return string.Format("PID:{0, -2} Cycles:{1, -2}", PID, Cycles);
         }
 
         public int PID 
         { 
-            get { return id; } 
-            set {id = value; } 
+            get { return pid; } 
+            set { pid = value; } 
         }
 
         public Process Next 
