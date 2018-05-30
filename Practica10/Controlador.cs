@@ -42,14 +42,17 @@ namespace ListaCircular
             if(estacionBase != null)
             {
                 Estacion pos = estacionBase;
-                do
+                while(pos.Siguiente != estacionBase)
                 {
                     if(pos.Nombre == nombreEstacion)
                         return pos;
 
                     pos = pos.Siguiente;
                 }
-                while(pos.Siguiente != estacionBase);
+                if(pos.Nombre == nombreEstacion)
+                    return pos;
+                
+                
             }
             return null;
         }
@@ -146,10 +149,8 @@ namespace ListaCircular
                 if(posicion == 0){
                     
                     //continue
-                    while(pos.Siguiente != estacionBase){
+                    while(pos.Siguiente != estacionBase)
                         pos = pos.Siguiente;
-                    
-
                 }
                 else
                 {
@@ -171,12 +172,13 @@ namespace ListaCircular
 
             if(pos != null)
             {
-                while(contador < horaFin*60)
-                {
+                ruta += pos.Nombre + "  " + contador + '\n';
+
+                do{                    
                     ruta += pos.Nombre + "  " + contador + '\n';
                     contador += pos.Siguiente.Tiempo;
                     pos = pos.Siguiente;
-                }
+                }while(contador < horaFin*60);
             }
 
             return ruta;
