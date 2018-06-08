@@ -13,6 +13,8 @@ Prácticas del curso Estructura de Datos 2018 Ingeniería de Software Facultad d
 * Práctica8  - Agenda (Listas Enlazadas Simples)
 * Práctica9  - Agenda (Listas Enlazadas Dobles)
 * Práctica10 - Bases y Rutas (Listas Circulares)
+* Práctica11 - Procesos (FIFO)
+* Práctica12 - Procesos (Listas Circulares)
 
 ## Prácticas de Clase
 * Vectores
