@@ -6,7 +6,9 @@ namespace Practica12
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ExpresionesAritmeticas analizador = new ExpresionesAritmeticas();
+            CLI cli = new CLI(analizador);
+            cli.iniciar();
         }
     }
 }

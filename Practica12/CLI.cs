@@ -15,7 +15,7 @@ namespace Practica12
         {
             string cmd, salida;
 
-            Console.WriteLine("::::::::::: ANALIZADOR DE EXPRESIONES ARITMETICAS :::::::::::");
+            Console.WriteLine("::::::::::: ANALIZADOR DE EXPRESIONES ARITMETICAS :::::::::::\n");
             Console.WriteLine(EjecutarComando("h"));
 
             do
@@ -43,24 +43,28 @@ namespace Practica12
                     analizador.generarArbolBinario();
                     break;
 
-                case "ex":
+                case "exp":
                     Console.WriteLine(analizador.Expresion);
                     break;
 
-                case "tree":
+                case "post":
+                Console.WriteLine(analizador.Postorden);
                     break;
 
-                case "inorder":
-                    break;
-
-                case "preorder":
+                case "pre":
+                    Console.WriteLine(analizador.Preorden);
                     break;
 
                 case "h" : 
-                    salida = "help";
+                    salida = "Comando  Acción\n" +
+                             "new  ->  Ingresar nueva expresion\n" +
+                             "exp  ->  Mostrar expresión actual\n" +
+                             "post ->  Mostrar recorrido postorden\n" +
+                             "pre  ->  Mostrar recorrido preorden\n" + 
+                             "quit ->  Salir\n";
                     break;
 
-                case "q" :
+                case "quit" :
                     salida = "bye";
                     break;
 

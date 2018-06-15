@@ -1,0 +1,11 @@
+/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica12/obj/Debug/netcoreapp2.1/Practica12.csprojAssemblyReference.cache
+/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica12/obj/Debug/netcoreapp2.1/Practica12.csproj.CoreCompileInputs.cache
+/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica12/obj/Debug/netcoreapp2.1/Practica12.AssemblyInfoInputs.cache
+/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica12/obj/Debug/netcoreapp2.1/Practica12.AssemblyInfo.cs
+/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica12/bin/Debug/netcoreapp2.1/Practica12.deps.json
+/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica12/bin/Debug/netcoreapp2.1/Practica12.runtimeconfig.json
+/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica12/bin/Debug/netcoreapp2.1/Practica12.runtimeconfig.dev.json
+/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica12/bin/Debug/netcoreapp2.1/Practica12.dll
+/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica12/bin/Debug/netcoreapp2.1/Practica12.pdb
+/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica12/obj/Debug/netcoreapp2.1/Practica12.dll
+/home/lechugalf/Escritorio/Programming/estructuras-de-datos/Practica12/obj/Debug/netcoreapp2.1/Practica12.pdb
